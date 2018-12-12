@@ -1,0 +1,53 @@
+.how-to-header {
+  background-color: white;
+  padding-top: 50px; }
+
+.how-to-header__content {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  justify-content: center; }
+  .how-to-header__content__img {
+    width: 100px;
+    height: 100px; }
+    .how-to-header__content__img img {
+      width: 100%; }
+  .how-to-header__content__title {
+    margin: auto 20px;
+    font-size: 3em;
+    font-family: "Roboto", sans-serif; }
+
+.how-to__row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #11B5E4;
+  border-bottom: 20px solid #001021; }
+
+.how-to__col {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  color: white; }
+  .how-to__col a {
+    color: darkblue; }
+    .how-to__col a:hover {
+      color: orange; }
+
+.backLink {
+  color: white; }
+
+.how-to__title {
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding: 20px;
+  font-family: "Roboto", sans-serif; }
+
+.how-to__content {
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: left; }
+  .how-to__content ul {
+    margin: 20px; }

@@ -1,0 +1,51 @@
+/* CARDS */
+
+@import '../../config.scss';
+
+    .gameIcon{
+        cursor: pointer;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        justify-content: space-around;
+        max-width: 800px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    .card{
+        display: flex;
+        width: 30%;
+        padding-right: 20px;
+        padding-left: 20px;
+        border: 3px solid black;
+        border-radius: 3px;
+        height:300px;
+        flex-direction: column;
+        transition-timing-function: ease-in-out;
+        transition-duration: 300ms;
+        cursor: pointer;
+    }
+    .card:hover{
+        background-color: grey;
+    }
+    .card__icon{
+        height: 60%;
+        padding: 30px;
+    }
+    .card__text{
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-top: 2px solid black;
+        text-align: center;
+    }
+    .card__text__title{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .card__text__description{
+        padding-top: 10px;
+    }

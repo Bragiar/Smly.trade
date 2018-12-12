@@ -1,0 +1,61 @@
+/* HOW TO GET SMLY */
+
+@import '../../config.scss';
+
+.howto{
+    display: flex;
+    flex-direction: column;
+    background-color :#0CAADC;
+}
+.about__content__title{
+    padding-top: 30px;
+}
+.about__content__text{
+    padding-bottom: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    &__item{
+
+        display: flex;
+        flex-direction: row;
+        padding: 10px 0;
+        border-bottom: 2px solid white;
+        cursor: pointer;
+        transition-timing-function: ease-in-out;
+        transition-duration: 300ms;
+
+        &:hover{
+            padding-left: 30px;
+
+        }
+    }
+
+    &__img{
+        display: flex;
+        width: 15%;
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+
+        &__title{
+            display: flex;
+            font-size: 2em;
+            color: white;
+        }
+
+        &__about{
+        display: flex;
+        color: white;
+        }
+    }
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}

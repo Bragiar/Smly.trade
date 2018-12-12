@@ -1,0 +1,38 @@
+.smly {
+  background-color: #0CAADC; }
+
+.smlyabout {
+  max-width: 800px;
+  margin: auto; }
+  .smlyabout__title {
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white; }
+  .smlyabout p {
+    font-size: 1.5em;
+    color: white;
+    padding: 40px; }
+  .smlyabout a {
+    color: darkblue; }
+    .smlyabout a:hover {
+      color: orange; }
+  .smlyabout__back {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    font-size: 2em;
+    text-decoration: none;
+    text-decoration: underline;
+    color: white; }
+    .smlyabout__back a {
+      color: white; }
+      .smlyabout__back a:hover {
+        color: orange; }
+
+.backbtn {
+  padding: 20px;
+  border-radius: 3px;
+  background-color: orange;
+  font-size: 1.5em; }
