@@ -3,6 +3,11 @@
   display: flex;
   flex-direction: column;
   background-color: #0CAADC; }
+  .howto__content {
+    flex-direction: row; }
+    @media (max-width: 1050px) {
+      .howto__content {
+        flex-direction: column; } }
 
 .about__content__title {
   padding-top: 30px; }
@@ -41,3 +46,14 @@
 .icon {
   width: 60px;
   height: 60px; }
+
+.smileypage__sidebar {
+  margin: 50px;
+  width: 400px; }
+  @media (max-width: 1050px) {
+    .smileypage__sidebar {
+      width: 500px; } }
+  @media (max-width: 600px) {
+    .smileypage__sidebar {
+      width: 350px;
+      margin: 50px auto; } }

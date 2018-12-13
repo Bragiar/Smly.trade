@@ -13,8 +13,7 @@
     flex-direction: column;
     background-color: #11B5E4;
     align-content: center;
-    width: 70%;
-    margin-left: 30px;
+    width: 100%;
 
     &__title{
         display: flex;
@@ -32,6 +31,13 @@
     margin: auto;
     font-size: 1em;
     max-width: 800px;
+    @media (max-width: 700px) {
+        flex-direction: column;
+        iframe{
+            height: 350px;
+        }
+        
+    }
 
     p{
         display: flex;
@@ -41,7 +47,7 @@
 
     iframe{
         margin: 20px;
-        width: 33%;
+
     }
 }
 .about__content__title{

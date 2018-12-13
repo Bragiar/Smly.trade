@@ -9,8 +9,7 @@
   flex-direction: column;
   background-color: #11B5E4;
   align-content: center;
-  width: 70%;
-  margin-left: 30px; }
+  width: 100%; }
   .about__title {
     display: flex;
     margin: auto;
@@ -24,13 +23,17 @@
   margin: auto;
   font-size: 1em;
   max-width: 800px; }
+  @media (max-width: 700px) {
+    .about__text {
+      flex-direction: column; }
+      .about__text iframe {
+        height: 350px; } }
   .about__text p {
     display: flex;
     justify-content: center;
     align-items: center; }
   .about__text iframe {
-    margin: 20px;
-    width: 33%; }
+    margin: 20px; }
 
 .about__content__title {
   font-size: 36px;

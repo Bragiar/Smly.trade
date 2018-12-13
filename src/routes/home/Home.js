@@ -15,19 +15,6 @@ export default class Home extends Component {
   render() {
     return (
       <section className="smileypage">
-      <div className="smileypage__sidebar">
-      <Timeline
-      dataSource={{
-        sourceType: 'profile',
-        screenName: 'smileycoinnews'
-      }}
-      options={{
-        username: 'SmileycoinNews',
-        height: '700',
-        width: '700%'
-      }}
-      />
-      </div>
         <Helmet title="SmileyCoin"/>
         <Heading />
         <IndexAbout />
