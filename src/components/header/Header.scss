@@ -53,19 +53,25 @@
     align-items: center;
     width: 100%;
   }
-
+  /*
   @media (max-width: 540px) {
     &__hide {
       visibility: hidden;
     }
   }
+  */
+  
 
   &__item {
     display: flex;
     font-size: 1rem;
     margin: 0px 20px;
   }
-
+  @media (max-width: 800px) {
+      &__hide {
+        display: none;
+      }
+    }
   &__coins {
     display: flex;
     justify-content: flex-end;
@@ -86,7 +92,7 @@
 
   @media (max-width: 800px) {
     &__coins {
-      visibility: hidden;
+     // visibility: hidden;
     }
   }
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { Link } from 'react-router-dom';
+import { Timeline } from 'react-twitter-widgets'
 
 import './IndexHowto.css';
 
@@ -10,7 +11,8 @@ export default class IndexHowto extends Component {
     return (
       <div className = "howto info">
           <div className = "howto__content content">
-              <h2 className = "about__content__title">How can you get SMLY?</h2>
+            <div>
+                <h2 className = "about__content__title">How can you get SMLY?</h2>
               <p className = "about__content__text">There are a few ways to get some smileycoins:</p>
               <div className = "list">
                   <Link to="/getstarted#easy" className = "list__item">
@@ -50,7 +52,21 @@ export default class IndexHowto extends Component {
                       </div>
                   </Link>
               </div>
-          </div>
+            </div>
+            <div className="smileypage__sidebar">
+                <Timeline
+                dataSource={{
+                    sourceType: 'profile',
+                    screenName: 'smileycoinnews'
+                }}
+                options={{
+                    username: 'SmileycoinNews',
+                    height: '500',
+                    width: '700%'
+                }}
+                />
+                </div>
+            </div>
       </div>
     );
   }

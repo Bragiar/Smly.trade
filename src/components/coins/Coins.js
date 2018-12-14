@@ -48,7 +48,7 @@ export default class Coins extends Component {
             <ul className="header__coins">
               <li className="header__coin">
                 <p className="header__coin__title">SMLY/ISK</p>
-                <p>kr. {data.ISK}</p>
+                <p>{data.ISK}kr.</p>
               </li>
               <li className="header__coin">
                 <p className="header__coin__title">SMLY/BTC</p>
