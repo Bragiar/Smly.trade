@@ -36,7 +36,7 @@ export default class Coins extends Component {
     }
 
     if (loading) {
-      return (<div></div>);
+      return (<div>Loading</div>);
     }
 
     // if (error || !data) {}
