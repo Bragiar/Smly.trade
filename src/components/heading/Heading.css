@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding: 20px; }
+  padding: 20px;
+  background-color: #f2ede0; }
 
 .heading__content {
   display: flex;
@@ -23,6 +24,10 @@
   font-size: 0.3em;
   font-style: italic;
   margin-top: -15px; }
+  @media (max-width: 460px) {
+    .heading__content__title__undertitle {
+      text-align: left;
+      padding-left: 15px; } }
 
 .heading__about {
   margin: 20px;
@@ -41,6 +46,9 @@
   padding-top: 20px;
   font-size: 4em;
   align-self: center; }
+  @media (max-width: 460px) {
+    .heading__content__title {
+      font-size: 2.5em; } }
 
 .heading__content__undertitle {
   align-self: center; }
@@ -52,3 +60,6 @@
 .heading__img img {
   width: 100px;
   min-width: 40px; }
+  @media (max-width: 460px) {
+    .heading__img img {
+      width: 70px; } }

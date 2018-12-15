@@ -2,18 +2,32 @@
 .howto {
   display: flex;
   flex-direction: column;
-  background-color: #0CAADC; }
+  background-color: #0CAADC;
+  color: white; }
   .howto__content {
     flex-direction: row; }
     @media (max-width: 1050px) {
       .howto__content {
         flex-direction: column; } }
 
-.about__content__title {
-  padding-top: 30px; }
+.howto__content__title {
+  padding: 20px 0;
+  color: white;
+  max-width: 1200px;
+  border-bottom: 2px solid white;
+  font-size: 2em;
+  margin: 0 20px; }
+  @media (max-width: 600px) {
+    .howto__content__title {
+      font-size: 1.5rem; } }
 
-.about__content__text {
-  padding-bottom: 20px; }
+.howto__content__text {
+  padding: 20px 0;
+  color: white;
+  font-size: 1.5em; }
+  @media (max-width: 600px) {
+    .howto__content__text {
+      font-size: 1rem; } }
 
 .list {
   display: flex;
@@ -35,10 +49,17 @@
   .list__text {
     display: flex;
     flex-direction: column; }
+    @media (max-width: 600px) {
+      .list__text {
+        margin-left: 20px;
+        font-size: 0.7em; } }
     .list__text__title {
       display: flex;
       font-size: 2em;
       color: white; }
+      @media (max-width: 600px) {
+        .list__text__title {
+          font-size: 1.5rem; } }
     .list__text__about {
       display: flex;
       color: white; }

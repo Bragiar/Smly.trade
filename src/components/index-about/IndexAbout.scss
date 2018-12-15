@@ -17,11 +17,11 @@
 
     &__title{
         display: flex;
-        margin: auto;
-        padding-top: 30px;
+        padding: 20px 0;
         max-width: 1200px;
         border-bottom: 2px solid white;
         font-size: 1.5em;
+        margin: 0 20px;
     }
 
 
@@ -38,6 +38,12 @@
         }
         
     }
+    @media (max-width: 460px) {
+        font-size: 30px;
+        iframe{
+            height: 200px;
+        }  
+      }
 
     p{
         display: flex;
@@ -54,11 +60,17 @@
     font-size: 36px;
     color: white;
     margin: auto;
+    @media (max-width: 460px) {
+        font-size: 30px;  
+      }
 }
 .about__content__text{
     padding: 20px 20px;
     font-size: 1.6em;
     color: white;
+    @media (max-width: 460px) {
+        font-size: 0.6em;
+      }
 }
 .about__links{
     display: flex;

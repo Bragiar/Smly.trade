@@ -4,7 +4,9 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding: 20px; }
+  padding: 20px;
+  background-color: #f2ede0 
+}
   .heading__content {
     display: flex;
     flex-direction: row;
@@ -18,7 +20,13 @@
       .heading__content__title__undertitle {
         font-size: 0.3em;
         font-style: italic;
-        margin-top: -15px; }
+        margin-top: -15px;
+        @media (max-width: 460px) {
+          text-align: left;
+          padding-left: 15px;
+      
+        } 
+      }
   .heading__about {
     margin: 20px;
     margin-bottom: 30px;
@@ -35,14 +43,23 @@
 .heading__content__title {
   padding-top: 20px;
   font-size: 4em;
-  align-self: center; }
+  align-self: center;
+  @media (max-width: 460px) {
+    font-size: 2.5em;
+  } 
+}
 
 .heading__content__undertitle {
-  align-self: center; }
+  align-self: center;
+}
 
 .heading__img {
   align-self: center;
   padding-right: 10px; }
   .heading__img img {
     width: 100px;
-    min-width: 40px;}
+    min-width: 40px;
+    @media (max-width: 460px) {
+      width: 70px
+    }
+  }
