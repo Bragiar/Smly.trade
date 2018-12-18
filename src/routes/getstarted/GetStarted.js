@@ -99,7 +99,7 @@ export default class GetStarted extends Component {
                     Recently, experiments have been made with a SMLY ATM. This is a black-box into which one deposits Litecoin and gets back Smileycoin. <a href="https://steemit.com/blockchain/@gstefans/more-messing-around-with-the-blockchain-an-atm-for-smly"> A document is available </a> describing the non-trivial process.
             </div>
             <div className = "smlyabout__back">
-                <a href="index.html" className = "backLink">Go back</a>
+                <Link to="/" className = "backLink">Go back</Link>
             </div>
         </div>
     </div>

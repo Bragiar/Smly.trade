@@ -54,7 +54,7 @@ export default class About extends Component {
       <li class = "about__list__item"><a href= "https://steemit.com/education/@gstefans/why-would-one-invest-in-an-altcoin">An overview of why you might want to put real money into high-risk cryptocurrencies</a></li>
     </ul>
     <div className = "smlyabout__back">
-      <a href="index.html">Go back</a>
+      <Link to="/" className = "backLink">Go back</Link>
     </div>
 
   </div>
