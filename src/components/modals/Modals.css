@@ -59,3 +59,7 @@
   color: black;
   text-decoration: none;
   cursor: pointer; }
+
+@media (max-width: 440px) {
+  code {
+    font-size: 0.75em; } }

@@ -27,7 +27,7 @@ export default class IndexTodo extends Component {
     return (
       <div className="indexinfo">
         <div className = "cards">
-            <Link to="how-to.html" className = "card">
+            <Link to="/getstarted" className = "card">
                 <div className = "card__icon">
                     <img src={require('../../img/rocket.svg')} alt=""/>
                 </div>
@@ -79,7 +79,7 @@ export default class IndexTodo extends Component {
                         </p>
                         <p>
                         <br/>
-                        Deposit any (small) amount of SMLY to the BEtZyyY address BEtZyyYqDXqmRJJ45nnL15cuASfiXg9Yik and you will automatically participate in a double-or-nothing game.
+                        Deposit any (small) amount of SMLY to the BEtZyyY address <code>BEtZyyYqDXqmRJJ45nnL15cuASfiXg9Yik</code> and you will automatically participate in a double-or-nothing game.
                         <br/><br/>
                         If you are on a Windows, Linux or Mac computer then the easiest way to do this is in the Console window, where you can give commands of the form:
                         <br/><br/>

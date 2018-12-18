@@ -67,19 +67,19 @@ export default class Modals extends Component {
                     <p class = "GameModal-content__title">
                        The simplest game of all is the SMLY double-or-nothing game:
                     </p>
-                    <p>
+                    <p class = "mamma">
                     <br/>
-                    Deposit any (small) amount of SMLY to the BEtZyyY address BEtZyyYqDXqmRJJ45nnL15cuASfiXg9Yik and you will automatically participate in a double-or-nothing game.
+                    Deposit any (small) amount of SMLY to the BEtZyyY address <code class = "address">BEtZyyYqDXqmRJJ45nnL15cuASfiXg9Yik</code> and you will automatically participate in a double-or-nothing game.
                     <br/><br/>
                     If you are on a Windows, Linux or Mac computer then the easiest way to do this is in the Console window, where you can give commands of the form:
                     <br/><br/>
-                    <code>
+                    <code class = "address">
                         sendtoaddress BEtZyyYqDXqmRJJ45nnL15cuASfiXg9Yik 20
                     </code>
                     <br/><br/>
                     repeatedly and see how you sometimes get the double back and sometimes nothing.
                   </p>
-              </div>
+              </div> 
           </div>
       </div>
     )

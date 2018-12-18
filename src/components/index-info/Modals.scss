@@ -59,3 +59,13 @@
     text-decoration: none;
     cursor: pointer;
 }
+@media (max-width: 440px){
+    .address{
+        font-size: 0.75em;
+    }
+}
+code{
+    @media (max-width: 440px) {
+        font-size: 0.75em;
+    }
+}

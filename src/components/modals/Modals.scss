@@ -58,3 +58,8 @@
     text-decoration: none;
     cursor: pointer;
 }
+code{
+    @media (max-width: 440px) {
+        font-size: 0.75em;
+    }
+}
