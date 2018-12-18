@@ -21,7 +21,7 @@
         padding: 40px;
     }
     a{
-        color: darkblue;
+        color: blanchedalmond;
         &:hover{
             color: orange;
         }
@@ -35,6 +35,7 @@
         text-decoration: none;
         text-decoration: underline;
         color: white;
+        padding-bottom: 20px;
         a{
             color: white;
             &:hover{
@@ -47,5 +48,21 @@
     padding: 20px;
     border-radius: 3px;
     background-color: orange;
-    font-size: 1.5em
+    font-size: 1.5em;
+
+}
+.kenyaimg{
+    display: flex;
+    max-width: 700px;
+    width: 95vw;
+    margin: auto;
+}
+.about__list{
+    font-size: 2em;
+    margin: 0 30px;
+    color: white;
+    &__item{
+        font-size: 1.5rem;
+        text-align: left;
+    }
 }

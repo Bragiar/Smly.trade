@@ -30,7 +30,9 @@ export default class Header extends Component {
       <div className="header__content">
         <div className="header__row">
           <div className="header__icon">
+          <Link to="/">
             <img src={require('../../img/smiley3.png')} alt="Smileycoin" style={divStyle}/>
+          </Link>
             <h1 className="header__title"><Link to="/">SmileyCoin</Link></h1>
           </div>
           <nav className="header__nav">

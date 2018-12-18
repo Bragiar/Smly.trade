@@ -13,11 +13,11 @@ export default class GetStarted extends Component {
         <Helmet title="Get Started" />
         <div className = "how-to-header">
           <div className ="how-to-header__content">
-              <div className = "how-to-header__content__img">
+              <div className = "how-to-header__content__img how-to-header__content__img--left">
                   <img src="smiley3.png" alt="Smileycoin"/>
               </div>
               <h1 className = "how-to-header__content__title">How can you get SMLY?</h1>
-              <div className = "how-to-header__content__img">
+              <div className = "how-to-header__content__img how-to-header__content__img--right">
                     <img src="smiley3.png" alt="Smileycoin"/>
              </div>
           </div>
@@ -92,7 +92,7 @@ export default class GetStarted extends Component {
             </div>
         </div>
     </div>
-    <div className="how-to__row">
+    <div className="how-to__row how-to__row--last">
         <div className = "how-to__col">
             <div className = "how-to__title" name = "wind">The winding way: Use the SMLY ATM</div>
             <div className = "how-to__content">

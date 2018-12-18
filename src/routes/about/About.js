@@ -26,7 +26,7 @@ export default class About extends Component {
     <div className = "smlyabout">
     <h1 className="smlyabout__title">About SmileyCoin</h1>
     <p>
-        A cryptocurrency has been specially designed to reward students for their studies.
+        Smileycoin is a cryptocurrency that has been specially designed to reward students for their studies.
         The currency bears the apt name Smileycoin or SMLY and is used within the tutor-web online learning platform.
         The tutor-web is a freely accessible and completely open web-based platform, initially developed as a research tool for on-line education.
         <br/><br/>
@@ -36,13 +36,23 @@ export default class About extends Component {
         <br/><br/>
         The SMLY recently celebrated its second birthday, making it an established cryptocurrency and no longer a newcomer.
         <br/><br/>
-        A separate project, Education In A Suitcase, uses the tutor-web and SMLY on servers and tablet computers distributed to very low-income regions of Africa. The picture shows an EIAS member handing out crowdfunded tablets to students at the primary school on the island of Takawiri in Lake Victoria. The island has no Internet nor general electricity, but one of the school buildings has solar panels which give unstable electricity. The unstable electricity is all it takes for the system to run. The server has a complete copy of the tutor-web along with all of (English) Wikipedia and the Khan Academy math videos
+        A separate project, Education In A Suitcase, uses the tutor-web and SMLY on servers and tablet computers distributed to very low-income regions of Africa. 
+
+        <br/><br/>
+        The picture shows an EIAS member handing out crowdfunded tablets to students at the primary school on the island of Takawiri in Lake Victoria. The island has no Internet nor general electricity, but one of the school buildings has solar panels which give unstable electricity. The unstable electricity is all it takes for the system to run. The server has a complete copy of the tutor-web along with all of (English) Wikipedia and the Khan Academy math videos
       </p>
+      <img src ={require('../../img/kenya.jpg')} alt = "Image missing" class = "kenyaimg"></img>
       <p className = "smlyabout__link">
         If you want to learn even more about Smileycoin here is <br/>
-        <a href="http://ledgerjournal.org/ojs/index.php/ledger/article/view/103/84">A peer-reviewed paper</a>
+        <a href="http://ledgerjournal.org/ojs/index.php/ledger/article/view/103/84">A peer-reviewed paper </a>
         describing the Smileycoin in more detail than you ever wanted to hear!
     </p>
+    <ul class = "about__list">More about smileycoin
+      <li class = "about__list__item"><a href= "https://steemit.com/cryptocurrency/@gstefans/how-do-you-go-about-buying-cryptocurrency">An elaborate introduction to how to get into crypto</a></li>
+      <li class = "about__list__item"><a href= "https://steemit.com/smileycoin/@gstefans/making-coins-from-coins-with-no-effort">An introduction to how the dividends work</a></li>
+      <li class = "about__list__item"><a href= "https://steemit.com/blockchain/@gstefans/double-or-nothing-on-the-blockchain">More on the double-or-nothing game</a></li>
+      <li class = "about__list__item"><a href= "https://steemit.com/education/@gstefans/why-would-one-invest-in-an-altcoin">An overview of why you might want to put real money into high-risk cryptocurrencies</a></li>
+    </ul>
     <div className = "smlyabout__back">
       <a href="index.html">Go back</a>
     </div>

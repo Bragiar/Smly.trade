@@ -12,8 +12,16 @@
     justify-content: center;
 
     &__img{
-        width: 100px;
-        height: 100px;
+        width: 10vw;
+        &--left{
+            margin-left: 20px;
+        }
+        &--right{
+            margin-right: 20px;
+        }
+        @media (max-width: 300px){
+
+        }
 
         img{
             width: 100%;
@@ -21,9 +29,10 @@
     }
 
     &__title{
-        margin: auto 20px;
-        font-size: 3em;
+        margin: auto 10px;
+        font-size: 5vw;
         font-family: $title-font;
+        color: black;
     }
 }
 
@@ -32,7 +41,10 @@
     display: flex;
     flex-direction: column;
     background-color: $cyan;
-    border-bottom: 20px solid $rich-black;
+    border-bottom: 40px solid #4A4A4A;
+    &--last{
+        border:none;
+    }
 }
 .how-to__col{
     max-width: 1000px;
@@ -41,7 +53,7 @@
     margin: 30px auto;
     color: white;
     a{
-        color: darkblue;
+        color: blanchedalmond;
         &:hover{
             color: orange;
         }
@@ -57,11 +69,17 @@
     border-bottom: 1px solid white;
     padding: 20px;
     font-family: $title-font;
+    @media (max-width: 800px) {
+        font-size: 1.5em;
+      }
 }
 .how-to__content{
     padding: 20px;
     font-size: 1.5em;
     text-align: left;
+    @media (max-width: 800px) {
+        font-size: 1em;
+      }
 
     ul{
         margin: 20px
