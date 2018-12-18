@@ -4,7 +4,7 @@
 - Bragi Arnarson
     - (bra26@hi.is)
 - Orri Martinez
-    - (orm@hi.is)
+    - (orm2@hi.is)
     
 ## Lýsing á Verkefni
 
