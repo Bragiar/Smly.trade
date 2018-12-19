@@ -13,10 +13,26 @@ export default class Header extends Component {
     }))
   }
 
+  componentDidMount() {
+    document.addEventListener('click', function(e) {
+      if (e.target.className == 'modal') e.target.style.display = 'none';
+    });
+  }
+
+  displayModal(type) {
+    var modal = document.getElementById(type)
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  hideModal(e) {
+    e.target.parentNode.parentNode.style.display = "none";
+  }
+
   render() {
     const { listOpen } = this.state;
     const { data, loading, error } = this.state;
-    console.log(data)
     var divStyle = {
       width: '40px',
       height: '40px'
@@ -50,8 +66,8 @@ export default class Header extends Component {
                       <Link to="/" className="dropdown__link"><li className="dropdown__list__item">Home</li></Link>
                       <Link to="/getstarted" className="dropdown__link"><li className="dropdown__list__item">Get Started</li></Link>
                       <Link to="/about" className="dropdown__link"><li className="dropdown__list__item">Introduction</li></Link>
-                      <Link to="/community" className="dropdown__link"><li className="dropdown__list__item">Community</li></Link>
-                      <Link to="/games" className="dropdown__link"><li className="dropdown__list__item">Games</li></Link>
+                      <li className="dropdown__list__item" onClick={() => {this.displayModal('modal__community')}}>Community</li>
+                      <li className="dropdown__list__item" onClick={() => {this.displayModal('modal__games')}}>Games</li>
                     </ul>
                   )}
                 </div>
@@ -60,6 +76,41 @@ export default class Header extends Component {
           </nav>
         </div>
       </div>
+      <div className="modal" id="modal__community">
+          {/* Modal content*/}
+          <div className="CommModal-content">
+            <span className="closeComm close" onClick={this.hideModal}>&times;</span>
+            <p>Our community!</p>
+            <ul>
+                <li><a href="https://bitcointalk.org/index.php?topic=845761.msg9431919#msg9431919">SmileyCoin on Bitcointalk</a> - General discussion about the SmileyCoin ecosystem, innovation and announcements </li>
+                <li><a href="https://twitter.com/smileycoinnews?lang=en">SmileyCoin twitter page</a> - News and announcements of SmileyCoin </li>
+                <li><a href="https://www.reddit.com/r/smileycoin/">Reddit</a> - Join our Reddit Community!</li>
+                <li><a href="https://t.me/SmileyCoinInternational">Telegram</a> - SmileyCoin chatroom on Telegram</li>
+            </ul>
+          </div>
+      </div>
+      {/* The Game Modal */}
+      <div className="modal" id="modal__games">
+            {/* Modal content*/}
+            <div className="GameModal-content">
+                <span className="closeGame close" onClick={this.hideModal}>&times;</span>
+                  <p className = "GameModal-content__title">
+                     The simplest game of all is the SMLY double-or-nothing game:
+                  </p>
+                  <p>
+                  <br/>
+                  Deposit any (small) amount of SMLY to the BEtZyyY address <code>BEtZyyYqDXqmRJJ45nnL15cuASfiXg9Yik</code> and you will automatically participate in a double-or-nothing game.
+                  <br/><br/>
+                  If you are on a Windows, Linux or Mac computer then the easiest way to do this is in the Console window, where you can give commands of the form:
+                  <br/><br/>
+                  <code>
+                      sendtoaddress BEtZyyYqDXqmRJJ45nnL15cuASfiXg9Yik 20
+                  </code>
+                  <br/><br/>
+                  repeatedly and see how you sometimes get the double back and sometimes nothing.
+                </p>
+            </div>
+        </div>
     </header>
     )
   }

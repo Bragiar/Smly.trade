@@ -29,11 +29,6 @@ export default class Coins extends Component {
   render() {
     const { listOpen } = this.state;
     const { data, loading, error } = this.state;
-    console.log(data)
-    var divStyle = {
-      width: '40px',
-      height: '40px'
-    }
 
     if (loading) {
       return (<div>Loading</div>);
