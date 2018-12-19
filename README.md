@@ -19,7 +19,7 @@ Undiríðurnar eru
 Á forsíðunni er haus sem inniheldur linka yfir á hinar undirsíðurnar og einnig "live price tracker" sem fær beint verð SmileyCoin. Við útfærðum það með hjálp þessarar síðu: https://min-api.cryptocompare.com/
 Einnig eru helstu upplýsingar um SmileyCoin á forsíðunni og við settum einnig Twitter news feedið frá @smileyCoinNews á forsíðuna. 
 
-[Smelltu hér ](https://notendur.hi.is/bra26/vefforritun/Hopverkefni2/index.html) til að komast á slóð verkefnisins keyrandi á vef.  
+[Smelltu hér ](https://smlytrade.herokuapp.com/) til að komast á slóð verkefnisins keyrandi á vef.  
 
 Við notuðum React javascript libraryið til þess að byggja upp síðuna
 
