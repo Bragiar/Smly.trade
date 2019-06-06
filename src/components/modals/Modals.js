@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-import './Modals.css';
+// import './Modals.css';
 
 export default class Modals extends Component {
   render() {
@@ -79,7 +79,7 @@ export default class Modals extends Component {
                     <br/><br/>
                     repeatedly and see how you sometimes get the double back and sometimes nothing.
                   </p>
-              </div> 
+              </div>
           </div>
       </div>
     )
