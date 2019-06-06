@@ -48,10 +48,11 @@
     width: 15%; }
   .list__text {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-left: 20px; }
     @media (max-width: 600px) {
       .list__text {
-        margin-left: 20px;
+        margin-left: 30px;
         font-size: 0.7em; } }
     .list__text__title {
       display: flex;
@@ -66,7 +67,8 @@
 
 .icon {
   width: 60px;
-  height: 60px; }
+  height: 60px;
+  margin: auto; }
 
 .smileypage__sidebar {
   margin: 50px;

@@ -31,7 +31,7 @@
         @media (max-width: 675px) {
             margin: 20px 0;
             width: 220px;
-            
+
         }
     }
     .card:hover{
@@ -55,4 +55,20 @@
     }
     .card__text__description{
         padding-top: 10px;
+    }
+    .cryptocompare{
+      width: 30%;
+      margin: 10px;
+    }
+    hr{
+      max-width: 900px;
+      margin: 20px auto;
+    }
+    .credits{
+      display: flex;
+      max-width: 800px;
+      margin: auto;
+      font-size: 14px;
+      font-family: inherit;
+      @media
     }

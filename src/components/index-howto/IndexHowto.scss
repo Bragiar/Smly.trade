@@ -12,7 +12,7 @@
         @media (max-width: 1050px) {
             flex-direction: column;
 
-            
+
         }
     }
 }
@@ -64,8 +64,9 @@
     &__text{
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
         @media (max-width: 600px) {
-            margin-left: 20px;
+            margin-left: 30px;
             font-size: 0.7em;
         }
 
@@ -87,16 +88,17 @@
 .icon{
     width: 60px;
     height: 60px;
+    margin: auto;
 }
 
 .smileypage__sidebar{
     margin: 50px;
     width: 400px;
     @media (max-width: 1050px) {
-        width: 500px; 
+        width: 500px;
     }
     @media (max-width: 600px) {
-        width: 350px; 
+        width: 350px;
         margin: 50px auto;
     }
 }

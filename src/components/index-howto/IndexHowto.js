@@ -44,7 +44,7 @@ export default class IndexHowto extends Component {
                   </Link>
                   <Link to="/getstarted#wind" className = "list__item">
                       <div className = "list__img">
-                          <img src={require('../../img/atm-color.svg')} alt="" className="icon"/>
+                          <img src={require('../../img/atm.png')} alt="" className="icon"/>
                       </div>
                       <div className = "list__text">
                           <div className = "list__text__title">The Winding way:</div>

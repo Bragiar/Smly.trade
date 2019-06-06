@@ -50,8 +50,6 @@ export default class Header extends Component {
                       <Link to="/" className="dropdown__link"><li className="dropdown__list__item">Home</li></Link>
                       <Link to="/getstarted" className="dropdown__link"><li className="dropdown__list__item">Get Started</li></Link>
                       <Link to="/about" className="dropdown__link"><li className="dropdown__list__item">Introduction</li></Link>
-                      <Link to="/community" className="dropdown__link"><li className="dropdown__list__item">Community</li></Link>
-                      <Link to="/games" className="dropdown__link"><li className="dropdown__list__item">Games</li></Link>
                     </ul>
                   )}
                 </div>

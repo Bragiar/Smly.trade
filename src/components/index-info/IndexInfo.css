@@ -50,3 +50,17 @@
 
 .card__text__description {
   padding-top: 10px; }
+
+.cryptocompare {
+  width: 30%;
+  margin: 10px; }
+
+hr {
+  max-width: 900px;
+  margin: 20px auto; }
+
+.credits {
+  max-width: 800px;
+  margin: auto;
+  font-size: 14px;
+  font-family: inherit; }

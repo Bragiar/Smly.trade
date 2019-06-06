@@ -46,6 +46,7 @@ export default class IndexTodo extends Component {
                     <div className = "card__text__description">Participate in the community</div>
                 </div>
             </div>
+            {/* The Community Modal */}
             <div className="modal">
                 {/* Modal content*/}
                 <div className="CommModal-content">
@@ -91,6 +92,18 @@ export default class IndexTodo extends Component {
                       </p>
                   </div>
               </div>
+        </div>
+        <hr></hr>
+        <div className = "credits">
+        <p className="credit__authors">Website Design by <a href="https://github.com/Bragiar" target="_blank">Bragi Arnarson</a> and <a href="https://github.com/Orm2" target="_blank">Orri Martinez</a>.</p>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>,
+        <a href="https://www.freepik.com/" title="Freepik">Freepik</a>,
+        <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a>,
+        <a href="https://www.flaticon.com/authors/payungkead" title="Payungkead"> Payungkead</a>,
+        <a href="https://www.flaticon.com/authors/graphberry" title="GraphBerry"> GraphBerry</a>,
+        <a href="https://www.flaticon.com/authors/hanan" title="Hanan"> Hanan </a> and
+        <a href="https://www.flaticon.com/authors/chanut" title="Chanut"> Chanut </a>from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        <img className = "cryptocompare" src={require('../../img/cryptocompare.jpg')} alt= "Powered by CryptoCompare"></img>
         </div>
       </div>
     )
