@@ -75,9 +75,9 @@ export default class GetStarted extends Component {
                     <br/><br/>
                     You will always need to have an account at a cryptocurrency exchange.
                     <br/><br/>
-                    The exchanges at <a href="https://tradesatoshi.com/">Tradesatoshi</a>, <a href="https://c-cex.com">C-cex</a> and <a href="https://novaexchange.com/">Novaexchange</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another. Both of these exchanges have SMLY markets.
+                    The exchanges at <a href="https://tradesatoshi.com/">Tradesatoshi</a>, <a href="https://www.southxchange.com/Market/Book/SMLY/DOGE">SouthXchange</a> and <a href="https://novaexchange.com/">Novaexchange</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another. Both of these exchanges have SMLY markets.
                     The following is currently the easiest method to buy SMLY for fiat (ordinary money).
-                    (Here we using VirVoX to buy BTC but you can use any service you like. If you are a Icelandic cititzen we recommend using <a href="https://isx.is/">ISX.is</a> to buy BTC)
+                    (Here we using VirVoX to buy BTC but you can use any service you like. If you are a Icelandic citizen we recommend using <a href="https://isx.is/">ISX.is</a> to buy BTC)
                     </p>
                     <ul>
                         <li>Get an account at an exchange: <a href="https://tradesatoshi.com/">https://tradesatoshi.com/</a>, <a href="https://c-cex.com">https://c-cex.com</a> and <a href="https://novaexchange.com/">https://novaexchange.com/</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another. Both of these exchanges hav</li>
