@@ -86,7 +86,7 @@ It builds the app and should make a build folder
 #### `deploy": "pm2 start ./server.sh --name yourAppName",`
 
 ## 4. Then in the same directory as the package.json, create an executable server.sh:
-#### `echo "Serving yourAppName!"
+#### `echo "Serving yourAppName!"`
 #### `serve -s build #(serve -s build -l 80) for deploying on port 80 `
 
 Don't forget to make server.sh an executable by running:
