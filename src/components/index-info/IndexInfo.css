@@ -60,7 +60,11 @@ hr {
   margin: 20px auto; }
 
 .credits {
+  display: flex;
+  flex-direction: column;
   max-width: 800px;
   margin: auto;
   font-size: 14px;
   font-family: inherit; }
+  .credits img {
+    margin: 10px auto; }

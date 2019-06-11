@@ -66,9 +66,13 @@
     }
     .credits{
       display: flex;
+      flex-direction: column;
       max-width: 800px;
       margin: auto;
       font-size: 14px;
       font-family: inherit;
-      @media
+      img{
+        margin: 10px auto;
+      }
+
     }

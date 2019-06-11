@@ -5,19 +5,19 @@
     - (bra26@hi.is)
 - Orri Martinez
     - (orm2@hi.is)
-    
+
 ## Lýsing á Verkefni
 
 Verkefnið er endurbætt útgáfa af vefsíðunni smly.trade
 
 Á endurbættu vefsíðunni er ein forsíða og tvær undirsíður.
 
-Undiríðurnar eru 
+Undiríðurnar eru
 - Introduction (Útskýrir betur hvað SmileyCoin er)
 - Get started (Útskýrir nokkrar leiðir hvernig maður eignast SmileyCoin)
 
 Á forsíðunni er haus sem inniheldur linka yfir á hinar undirsíðurnar og einnig "live price tracker" sem fær beint verð SmileyCoin. Við útfærðum það með hjálp þessarar síðu: https://min-api.cryptocompare.com/
-Einnig eru helstu upplýsingar um SmileyCoin á forsíðunni og við settum einnig Twitter news feedið frá @smileyCoinNews á forsíðuna. 
+Einnig eru helstu upplýsingar um SmileyCoin á forsíðunni og við settum einnig Twitter news feedið frá @smileyCoinNews á forsíðuna.
 
 [Smelltu hér ](https://smlytrade.herokuapp.com/) til að komast á slóð verkefnisins keyrandi á vef.  
 
@@ -71,3 +71,29 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# information on how to run Smly.trade for production use on server
+
+1. Build the project with npm run build
+
+It builds the app and should make a build folder
+
+2. Install pm2 globally
+### `sudo npm install -g pm2`
+
+3. Add this deploy script to your to your scripts in the package.json file
+
+### `deploy": "pm2 start ./server.sh --name yourAppName",`
+
+4. Then in the same directory as the package.json, create an executable server.sh:
+###
+`echo "Serving yourAppName!"
+serve -s build #(serve -s build -l 80) for deploying on port 80 `
+
+Don't forget to make server.sh an executable by running:
+### `chmod +x server.sh`
+
+5. Deploy your app by using: (might have to use sudo)
+### `npm run deploy`
+
+6. To make the server start on boot read: http://pm2.keymetrics.io/docs/usage/startup/
