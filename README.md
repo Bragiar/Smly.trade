@@ -74,25 +74,28 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 # Information on how to run Smly.trade for production use on server
 
-### 1. Build the project with npm run build
+## 1. Build the project with npm run build
 
 It builds the app and should make a build folder
 
 ### 2. Install pm2 globally
-#### `sudo npm install -g pm2`
+`sudo npm install -g pm2`
 
 ### 3. Add this deploy script to your to your scripts in the package.json file
 
-#### `deploy": "pm2 start ./server.sh --name yourAppName",`
+`deploy": "pm2 start ./server.sh --name yourAppName",`
 
 ### 4. Then in the same directory as the package.json, create an executable server.sh:
-#### `echo "Serving yourAppName!"
-#### `serve -s build #(serve -s build -l 80) for deploying on port 80 `
+```
+echo "Serving yourAppName!"
+serve -s build #(serve -s build -l 80) for deploying on port 80
+```
 
 Don't forget to make server.sh an executable by running:
-#### `chmod +x server.sh`
+
+`chmod +x server.sh`
 
 ### 5. Deploy your app by using: (might have to use sudo)
-#### `npm run deploy`
+`npm run deploy`
 
 ### 6. To make the server start on boot read: http://pm2.keymetrics.io/docs/usage/startup/
