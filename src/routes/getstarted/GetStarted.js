@@ -81,7 +81,7 @@ export default class GetStarted extends Component {
                     </p>
                     <ul>
                         <li>Get an account at an exchange: <a href="https://tradesatoshi.com/">https://tradesatoshi.com/</a>, <a href="https://c-cex.com">https://c-cex.com</a> and <a href="https://novaexchange.com/">https://novaexchange.com/</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another. Both of these exchanges hav</li>
-                        <li>Deposit fiat (USD, GBP or EUR) using PayPal, VISA etc at https://www.virwox.com/</li>
+                        <li>Deposit fiat (USD, GBP or EUR) using PayPal, VISA etc at <a href = "https://www.virwox.com">VirVoX</a></li>
                         <li>an account at https://www.virwox.com/</li>
                         <li>Buy SLL for fiat at https://www.virwox.com/</li>
                         <li>Buy BTC for SLL at https://www.virwox.com/</li>
