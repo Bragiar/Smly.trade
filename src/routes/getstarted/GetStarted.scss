@@ -1,7 +1,7 @@
 @import '../../config.scss';
 
 .how-to-header {
-  background-color: white;
+  background-color: #f2ede0;
   padding-top: 50px;
 }
 
@@ -10,7 +10,6 @@
     flex-direction: row;
     margin: 50px auto;
     justify-content: center;
-
     &__img{
         width: 10vw;
         &--left{
@@ -30,9 +29,21 @@
 
     &__title{
         margin: auto 10px;
-        font-size: 5vw;
-        font-family: $title-font;
+        font-size: 4em;
+        font-family: "Roboto", sans-serif;
         color: black;
+        @media (max-width: 960px){
+          font-size: 3em;
+        }
+        @media (max-width: 740px){
+          font-size: 2em;
+        }
+        @media (max-width: 520px){
+          font-size: 1.5em;
+        }
+        @media (max-width: 410px){
+          font-size: 1em;
+        }
     }
 }
 

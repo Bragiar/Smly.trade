@@ -11,7 +11,7 @@ export default class Coins extends Component {
   }
 
   async fetchData() {
-    const baseurl = 'https://min-api.cryptocompare.com/data/price?fsym=SMLY&tsyms=BTC,DOGE,ISK'
+    const baseurl = 'https://min-api.cryptocompare.com/data/price?fsym=SMLY&tsyms=BTC,DOGE,USD'
     const api_key = process.env.REACT_APP_SERVICE_URL;
     const url = baseurl + '&api_key=' + api_key;
 
@@ -42,8 +42,8 @@ export default class Coins extends Component {
           {data && (
             <ul className="header__coins">
               <li className="header__coin">
-                <p className="header__coin__title">SMLY/ISK</p>
-                <p>{data.ISK}kr.</p>
+                <p className="header__coin__title">SMLY/USD</p>
+                <p>{data.USD} USD</p>
               </li>
               <li className="header__coin">
                 <p className="header__coin__title">SMLY/BTC</p>

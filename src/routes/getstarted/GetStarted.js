@@ -16,7 +16,7 @@ export default class GetStarted extends Component {
               <div className = "how-to-header__content__img how-to-header__content__img--left">
                   <img src="smiley3.png" alt="Smileycoin"/>
               </div>
-              <h1 className = "how-to-header__content__title">How can you get SMLY?</h1>
+              <p className = "how-to-header__content__title">How can you get SMLY?</p>
               <div className = "how-to-header__content__img how-to-header__content__img--right">
                     <img src="smiley3.png" alt="Smileycoin"/>
              </div>
@@ -80,9 +80,9 @@ export default class GetStarted extends Component {
                     (Here we using VirVoX to buy BTC but you can use any service you like. If you are a Icelandic citizen we recommend using <a href="https://isx.is/">ISX.is</a> to buy BTC)
                     </p>
                     <ul>
-                        <li>Get an account at an exchange: <a href="https://tradesatoshi.com/">https://tradesatoshi.com/</a>, <a href="https://c-cex.com">https://c-cex.com</a> and <a href="https://novaexchange.com/">https://novaexchange.com/</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another. Both of these exchanges hav</li>
+                        <li>Get an account at an exchange: <a href="https://tradesatoshi.com/">https://tradesatoshi.com/</a>, <a href="https://c-cex.com">https://c-cex.com</a> and <a href="https://novaexchange.com/">https://novaexchange.com/</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another. Each of these exchanges have SMLY markets</li>
                         <li>Deposit fiat (USD, GBP or EUR) using PayPal, VISA etc at <a href = "https://www.virwox.com">VirVoX</a></li>
-                        <li>an account at https://www.virwox.com/</li>
+                        <li>Get an account at https://www.virwox.com/</li>
                         <li>Buy SLL for fiat at https://www.virwox.com/</li>
                         <li>Buy BTC for SLL at https://www.virwox.com/</li>
                         <li>Transfer the BTC from https://www.virwox.com/ to your address at the exchange</li>

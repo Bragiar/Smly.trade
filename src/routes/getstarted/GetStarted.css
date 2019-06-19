@@ -1,5 +1,5 @@
 .how-to-header {
-  background-color: white;
+  background-color: #f2ede0;
   padding-top: 50px; }
 
 .how-to-header__content {
@@ -17,9 +17,21 @@
       width: 100%; }
   .how-to-header__content__title {
     margin: auto 10px;
-    font-size: 5vw;
+    font-size: 4em;
     font-family: "Roboto", sans-serif;
     color: black; }
+    @media (max-width: 960px) {
+      .how-to-header__content__title {
+        font-size: 3em; } }
+    @media (max-width: 740px) {
+      .how-to-header__content__title {
+        font-size: 2em; } }
+    @media (max-width: 520px) {
+      .how-to-header__content__title {
+        font-size: 1.5em; } }
+    @media (max-width: 410px) {
+      .how-to-header__content__title {
+        font-size: 1em; } }
 
 .how-to__row {
   width: 100%;
