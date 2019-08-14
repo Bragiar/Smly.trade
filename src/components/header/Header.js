@@ -54,6 +54,8 @@ export default class Header extends Component {
           <nav className="header__nav">
             <Coins/>
             <ul className="header__list">
+              <li className="header__item header__hide"><Link to="/details" className="header__link">Details</Link></li>
+              <li className="header__item header__hide"><Link to="/wallets" className="header__link">Wallets</Link></li>
               <li className="header__item header__hide"><Link to="/getstarted" className="header__link">Get Started</Link></li>
               <li className="header__item header__hide"><Link to="/about" className="header__link">Introduction</Link></li>
               <li className="header__item">
@@ -66,6 +68,9 @@ export default class Header extends Component {
                       <Link to="/" className="dropdown__link"><li className="dropdown__list__item">Home</li></Link>
                       <Link to="/getstarted" className="dropdown__link"><li className="dropdown__list__item">Get Started</li></Link>
                       <Link to="/about" className="dropdown__link"><li className="dropdown__list__item">Introduction</li></Link>
+                      <Link to="/coininfo" className="dropdown__link"><li className="dropdown__list__item">Coin and mining information</li></Link>
+                      <Link to="/details" className="dropdown__link"><li className="dropdown__list__item">Details</li></Link>
+                      <Link to="/wallets" className="dropdown__link"><li className="dropdown__list__item">Wallets</li></Link>
                     </ul>
                   )}
                 </div>

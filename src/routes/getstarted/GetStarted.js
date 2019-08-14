@@ -9,19 +9,20 @@ export default class GetStarted extends Component {
 
     var imgStyle
     return (
-      <section className="howto">
+      <section className="getstarted">
         <Helmet title="Get Started" />
-        <div className = "how-to-header">
-          <div className ="how-to-header__content">
-              <div className = "how-to-header__content__img how-to-header__content__img--left">
+        <div className = "heading info">
+          <div className ="heading__content">
+              <div className = "heading__img">
                   <img src="smiley3.png" alt="Smileycoin"/>
               </div>
-              <p className = "how-to-header__content__title">How can you get SMLY?</p>
-              <div className = "how-to-header__content__img how-to-header__content__img--right">
-                    <img src="smiley3.png" alt="Smileycoin"/>
-             </div>
+              <div className="heading__content__title getstarted-title">
+                  <div className="heading__content__title__title">
+                      <p className = "title">How to earn <b>Smiley</b>Coin </p>
+                  </div>
+              </div>
           </div>
-          </div>
+      </div>
           <div className="how-to__row">
           <div className = "how-to__col">
             <div className = "how-to__title" name = "easy">Easiest: Donate to Education in a Suitcase</div>
@@ -33,13 +34,9 @@ export default class GetStarted extends Component {
                     <br/>
                     You will not make money from this transaction, but you will painlessly get some Smileycoins which you can then use to test the waters of electronic currencies.
                     <br/><br/>
-                    Make sure you first have a SMLY wallet! There are multiple wallets available for smileycoin:
+                    Make sure you first have a SMLY wallet! Go to the <Link to= "/wallets">download page</Link> to find the right wallet for you!
                     <br/>
-                    <ul>
-                        <li>An easy to use <a href="https://wallet.smileyco.in/" >online wallet</a></li>
-                        <li>The <a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet&hl=en">android coinomi app.</a></li>
-                        <li><a href="https://tutor-web.info/smileycoin/download" > Download a desktop wallet</a></li>
-                    </ul>
+                    <br/>
                     It is easy to test this: Just go to their <a href="http://educationinasuitcase.com/donation/en/index.html">Donation page</a> and send them five dollars. If you follow the instructions, then you will quickly see some Smileycoins in your wallet.
                     <br/>
                     Now, these donation pages are mostly in Icelandic at the time of this writing. You will want to know the following:

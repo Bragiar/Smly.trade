@@ -1,7 +1,7 @@
 @import '../../config.scss';
 
 .smly{
-    background-color: #0CAADC;
+    background-color: $color1;
 }
 .smlyabout{
     max-width: 800px;
@@ -10,20 +10,32 @@
     &__title{
         font-family: $title-font;
         padding: 20px;
-        color: white;
+        color: $text-black;
         text-align: center;
-        border-bottom: 1px solid white;
-
+        border-bottom: 1px solid $text-black;
+    }
+    &__subtitle{
+      font-family: $title-font;
+      padding: 10px;
+      color: $text-black;
+      text-align: center;
+      border-bottom: 1px solid $text-black;
     }
     p {
         font-size: 1.5em;
-        color: white;
+        color: $text-black;
         padding: 40px;
+        text-align: left;
+        @media(max-width: 800px){
+          font-size: 1em;
+        }
     }
     a{
-        color: blanchedalmond;
+        color: blue;
+        text-decoration: underline;
+        transition: color .3s;
         &:hover{
-            color: orange;
+            color: $color5;
         }
     }
 
@@ -37,9 +49,9 @@
         color: white;
         padding-bottom: 20px;
         a{
-            color: white;
+            color: $text-black;
             &:hover{
-                color: orange;
+                color: $color5;
             }
         }
     }
@@ -60,9 +72,11 @@
 .about__list{
     font-size: 2em;
     margin: 0 30px;
-    color: white;
+    color: $text-black;
+    @media(max-width: 800px){
+      font-size: 1rem;
+    }
     &__item{
-        font-size: 1.5rem;
         text-align: left;
     }
 }

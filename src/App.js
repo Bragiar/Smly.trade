@@ -11,6 +11,9 @@ import Header from './components/header';
 import Home from './routes/home';
 import GetStarted from './routes/getstarted';
 import About from './routes/about';
+import CoinInfo from './routes/coininfo'
+import Details from './routes/details'
+import Wallets from './routes/wallets'
 
 class App extends Component {
   render() {
@@ -25,6 +28,9 @@ class App extends Component {
               <Route path="/" exact component={Home} />
               <Route path="/getstarted" component={GetStarted} />
               <Route path="/about" component={About} />
+              <Route path="/coininfo" component={CoinInfo} />
+              <Route path="/details" component={Details} />
+              <Route path="/wallets" component={Wallets} />
             </Switch>
           </div>
         </main>

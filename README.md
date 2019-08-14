@@ -1,31 +1,29 @@
-# Lokaverkefni í Rafmyntum
+
 ### Nafn og netfang höfunda
 
 - Bragi Arnarson
     - (bra26@hi.is)
-- Orri Martinez
-    - (orm2@hi.is)
 
-## Lýsing á Verkefni
+#Structure
+```
+.
+|  
++-- index
+|   +-- footer.html
+|   +-- header.html
++-- _layouts
+|   +-- default.html
+|   +-- post.html
++-- _posts
+|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
++-- _data
+|   +-- members.yml
++-- _site
++-- index.html
+```
 
-Verkefnið er endurbætt útgáfa af vefsíðunni smly.trade
-
-Á endurbættu vefsíðunni er ein forsíða og tvær undirsíður.
-
-Undiríðurnar eru
-- Introduction (Útskýrir betur hvað SmileyCoin er)
-- Get started (Útskýrir nokkrar leiðir hvernig maður eignast SmileyCoin)
-
-Á forsíðunni er haus sem inniheldur linka yfir á hinar undirsíðurnar og einnig "live price tracker" sem fær beint verð SmileyCoin. Við útfærðum það með hjálp þessarar síðu: https://min-api.cryptocompare.com/
-Einnig eru helstu upplýsingar um SmileyCoin á forsíðunni og við settum einnig Twitter news feedið frá @smileyCoinNews á forsíðuna.
-
-[Smelltu hér ](https://smlytrade.herokuapp.com/) til að komast á slóð verkefnisins keyrandi á vef.  
-
-Við notuðum React javascript libraryið til þess að byggja upp síðuna
-
-
-
-# Upplýsingar um hvernig skuli keyra verkefnið
+# How to run the project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

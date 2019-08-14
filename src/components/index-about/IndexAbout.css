@@ -7,14 +7,14 @@
 .about {
   display: flex;
   flex-direction: column;
-  background-color: #11B5E4;
+  background-color: #94D6FF;
   align-content: center;
   width: 100%; }
   .about__title {
     display: flex;
     padding: 20px 0;
     max-width: 1200px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #333;
     font-size: 1.5em;
     margin: 0 20px; }
 
@@ -23,26 +23,31 @@
   margin: auto;
   font-size: 1em;
   max-width: 800px; }
+  .about__text iframe {
+    margin: 20px;
+    width: 50%; }
   @media (max-width: 700px) {
     .about__text {
       flex-direction: column; }
       .about__text iframe {
-        height: 350px; } }
+        height: 350px;
+        width: auto; } }
   @media (max-width: 460px) {
-    .about__text {
-      font-size: 30px; }
-      .about__text iframe {
-        height: 200px; } }
+    .about__text iframe {
+      height: 200px; } }
   .about__text p {
     display: flex;
     justify-content: center;
-    align-items: center; }
-  .about__text iframe {
-    margin: 20px; }
+    align-items: center;
+    text-align: left;
+    width: 50%; }
+    @media (max-width: 700px) {
+      .about__text p {
+        width: 100%; } }
 
 .about__content__title {
   font-size: 36px;
-  color: white;
+  color: #333;
   margin: auto; }
   @media (max-width: 460px) {
     .about__content__title {
@@ -51,26 +56,24 @@
 .about__content__text {
   padding: 20px 20px;
   font-size: 1.6em;
-  color: white; }
+  color: #333; }
   @media (max-width: 460px) {
     .about__content__text {
-      font-size: 0.6em; } }
+      font-size: 1em; } }
 
 .about__links {
   display: flex;
-  margin: 20px 0;
-  align-content: center;
-  justify-content: center;
+  margin-bottom: 20px;
+  padding-left: 20px;
   font-size: 1.5em;
   text-decoration: none; }
 
 .link__more {
-  padding-right: 10px;
-  text-decoration: none;
-  border-right: 1px solid white; }
+  text-decoration: none; }
   .link__more a {
-    color: whitesmoke;
-    text-decoration: underline; }
+    color: #333;
+    text-decoration: underline;
+    transition: color .3s; }
     .link__more a:hover {
       color: orange; }
 
@@ -82,9 +85,6 @@
     text-decoration: underline; }
     .link__tutor a:hover {
       color: orange; }
-
-a {
-  text-decoration: none; }
 
 .link {
   text-decoration: none; }

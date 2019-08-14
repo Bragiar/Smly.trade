@@ -17,7 +17,6 @@ export default class Heading extends Component {
                     <p className = "title bold">Smiley</p>
                     <p className = "title">Coin</p>
                 </div>
-                <p className = "heading__content__title__undertitle title">Trading website</p>
             </div>
         </div>
         <div className = "heading__about title">

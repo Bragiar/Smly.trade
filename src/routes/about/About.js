@@ -16,8 +16,7 @@ export default class About extends Component {
             </div>
             <div className="heading__content__title">
                 <div className="heading__content__title__title">
-                    <p className = "title bold">Smiley</p>
-                    <p className = "title">Coin</p>
+                    <p className = "title">About <b>Smiley</b>Coin</p>
                 </div>
             </div>
         </div>
@@ -36,8 +35,10 @@ export default class About extends Component {
         <br/><br/>
         The SMLY recently celebrated its second birthday, making it an established cryptocurrency and no longer a newcomer.
         <br/><br/>
-        A separate project, Education In A Suitcase, uses the tutor-web and SMLY on servers and tablet computers distributed to very low-income regions of Africa. 
-
+        </p>
+        <h2 className="smlyabout__subtitle">Education in a suitcase</h2>
+        <p>
+        A separate project, Education In A Suitcase, uses the tutor-web and SMLY on servers and tablet computers distributed to very low-income regions of Africa.
         <br/><br/>
         The picture shows an EIAS member handing out crowdfunded tablets to students at the primary school on the island of Takawiri in Lake Victoria. The island has no Internet nor general electricity, but one of the school buildings has solar panels which give unstable electricity. The unstable electricity is all it takes for the system to run. The server has a complete copy of the tutor-web along with all of (English) Wikipedia and the Khan Academy math videos
       </p>
@@ -47,7 +48,8 @@ export default class About extends Component {
         <a href="http://ledgerjournal.org/ojs/index.php/ledger/article/view/103/84">A peer-reviewed paper </a>
         describing the Smileycoin in more detail than you ever wanted to hear!
     </p>
-    <ul class = "about__list">More about smileycoin
+    <h2 className="smlyabout__subtitle">More about smileycoin</h2>
+    <ul class = "about__list">
       <li class = "about__list__item"><a href= "https://steemit.com/cryptocurrency/@gstefans/how-do-you-go-about-buying-cryptocurrency">An elaborate introduction to how to get into crypto</a></li>
       <li class = "about__list__item"><a href= "https://steemit.com/smileycoin/@gstefans/making-coins-from-coins-with-no-effort">An introduction to how the dividends work</a></li>
       <li class = "about__list__item"><a href= "https://steemit.com/blockchain/@gstefans/double-or-nothing-on-the-blockchain">More on the double-or-nothing game</a></li>

@@ -1,7 +1,7 @@
 /*
 
 document.addEventListener('DOMContentLoaded', () => {
-    
+
 }
 */
    const comm = document.querySelector('.community');
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Get the <span> element that closes the modal
 
 
-// When the user clicks on the button, open the modal 
+// When the user clicks on the button, open the modal
 
 // When the user clicks on <span> (x), close the modal
 CommSpan.onclick = function() {
@@ -43,9 +43,25 @@ window.onclick = function(event) {
 
 
 function openComm(){
-    CommModal.style.display = "block"; 
+    CommModal.style.display = "block";
 }
 
 function openGame(){
     GameModal.style.display = "block";
+}
+
+// Wallets
+
+const desktop_but = document.getElementsByClassName('desktop-button');
+const mobile_but = document.getElementsByClassName('mobile-button');
+const online_but = document.getElementsByClassName('online-button');
+
+//desktop_but.addEventListener()
+
+const desktop = document.getElementsByClassName('desktop');
+const mobile = document.getElementsByClassName('mobile');
+const online = document.getElementsByClassName('online');
+
+desktop.onclick = function(){
+  desktop.style.display = "flex";
 }

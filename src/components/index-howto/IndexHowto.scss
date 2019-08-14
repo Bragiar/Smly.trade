@@ -5,7 +5,7 @@
 .howto{
     display: flex;
     flex-direction: column;
-    background-color :#0CAADC;
+    background-color : $color1;
     color: white;
     &__content{
         flex-direction: row;
@@ -18,9 +18,9 @@
 }
 .howto__content__title{
     padding: 20px 0;
-    color: white;
+    color: $text-black;
     max-width: 1200px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid $text-black;
     font-size: 2em;
     margin: 0 20px;
     @media (max-width: 600px) {
@@ -29,7 +29,7 @@
 }
 .howto__content__text{
     padding: 20px 0;
-    color: white;
+    color: $text-black;
     font-size: 1.5em;
     @media (max-width: 600px) {
         font-size: 1rem;
@@ -45,10 +45,11 @@
         display: flex;
         flex-direction: row;
         padding: 10px 0;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid $text-black;
         cursor: pointer;
         transition-timing-function: ease-in-out;
         transition-duration: 300ms;
+        text-decoration: none;
 
         &:hover{
             padding-left: 30px;
@@ -73,7 +74,7 @@
         &__title{
             display: flex;
             font-size: 2em;
-            color: white;
+            color: $text-black;
             @media (max-width: 600px) {
                 font-size: 1.5rem;
             }
@@ -81,7 +82,8 @@
 
         &__about{
         display: flex;
-        color: white;
+        color: $text-black;
+        text-decoration: none;
         }
     }
 }

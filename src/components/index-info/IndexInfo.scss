@@ -1,6 +1,10 @@
 /* CARDS */
 
 @import '../../config.scss';
+.indexinfo{
+  background-color: white;
+  text-decoration: none;
+}
 
     .gameIcon{
         cursor: pointer;
@@ -28,6 +32,8 @@
         height:300px;
         flex-direction: column;
         cursor: pointer;
+        transition: background-color 1s;
+        text-decoration: none;
         @media (max-width: 675px) {
             margin: 20px 0;
             width: 220px;
@@ -35,7 +41,7 @@
         }
     }
     .card:hover{
-        background-color: grey;
+        background-color: $color1;
     }
     .card__icon{
         width: 100%;
@@ -75,4 +81,7 @@
         margin: 10px auto;
       }
 
+    }
+    a{
+      text-decoration: none;
     }

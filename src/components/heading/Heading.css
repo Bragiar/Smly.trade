@@ -1,13 +1,14 @@
 /* heading */
 .heading {
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-content: center;
   padding: 20px;
-  background-color: #f2ede0; }
+  background-color: white; }
 
 .heading__content {
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   padding-bottom: 10px; }

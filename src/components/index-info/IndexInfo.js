@@ -101,6 +101,7 @@ export default class IndexTodo extends Component {
         <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a>,
         <a href="https://www.flaticon.com/authors/payungkead" title="Payungkead"> Payungkead</a>,
         <a href="https://www.flaticon.com/authors/graphberry" title="GraphBerry"> GraphBerry</a>,
+        <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp"> Eucalyp</a>,
         <a href="https://www.flaticon.com/authors/hanan" title="Hanan"> Hanan </a> and
         <a href="https://www.flaticon.com/authors/chanut" title="Chanut"> Chanut </a>from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
         <img className = "cryptocompare" src={require('../../img/cryptocompare.jpg')} alt= "Powered by CryptoCompare"></img>

@@ -6,8 +6,10 @@ import { Timeline } from 'react-twitter-widgets'
 import './Home.css';
 import Heading from '../../components/heading';
 import IndexAbout from '../../components/index-about';
-import IndexTodo from '../../components/index-todo';
+import IndexTutor from '../../components/index-tutor';
 import IndexHowto from '../../components/index-howto';
+import IndexWallets from '../../components/index-wallets';
+import IndexCoin from '../../components/index-coin';
 import IndexInfo from '../../components/index-info';
 
 
@@ -18,8 +20,10 @@ export default class Home extends Component {
         <Helmet title="SmileyCoin"/>
         <Heading />
         <IndexAbout />
-        <IndexTodo />
+        <IndexTutor />
         <IndexHowto />
+        <IndexWallets />
+        <IndexCoin />
         <IndexInfo />
       </section>
     );

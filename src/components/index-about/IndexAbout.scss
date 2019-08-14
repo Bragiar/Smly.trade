@@ -11,7 +11,7 @@
 .about{
     display: flex;
     flex-direction: column;
-    background-color: #11B5E4;
+    background-color: $color1;
     align-content: center;
     width: 100%;
 
@@ -19,7 +19,7 @@
         display: flex;
         padding: 20px 0;
         max-width: 1200px;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #333;
         font-size: 1.5em;
         margin: 0 20px;
     }
@@ -31,15 +31,19 @@
     margin: auto;
     font-size: 1em;
     max-width: 800px;
+    iframe{
+        margin: 20px;
+        width: 50%;
+    }
     @media (max-width: 700px) {
         flex-direction: column;
         iframe{
             height: 350px;
+            width: auto;
         }
 
     }
     @media (max-width: 460px) {
-        font-size: 30px;
         iframe{
             height: 200px;
         }
@@ -49,15 +53,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    iframe{
-        margin: 20px;
+        text-align: left;
+        width: 50%;
+        @media(max-width: 700px){
+          width: 100%;
+        }
     }
 }
 .about__content__title{
     font-size: 36px;
-    color: white;
+    color: #333;
     margin: auto;
     @media (max-width: 460px) {
         font-size: 30px;
@@ -66,26 +71,24 @@
 .about__content__text{
     padding: 20px 20px;
     font-size: 1.6em;
-    color: white;
+    color: #333;
     @media (max-width: 460px) {
-        font-size: 0.6em;
+        font-size: 1em;
       }
 }
 .about__links{
     display: flex;
-    margin: 20px 0;
-    align-content: center;
-    justify-content: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
     font-size: 1.5em;
     text-decoration: none;
 }
 .link__more{
-    padding-right: 10px;
     text-decoration: none;
-    border-right: 1px solid white;
     a{
-        color: whitesmoke;
+        color: #333;
         text-decoration: underline;
+        transition: color .3s;
         &:hover{
             color: orange;
         }
@@ -103,9 +106,8 @@
     }
 
 }
-a{
-    text-decoration: none;
-}
+
+
 .link{
     text-decoration: none;
 }
